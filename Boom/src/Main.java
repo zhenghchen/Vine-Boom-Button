@@ -26,7 +26,7 @@ public class Main {
 
                 if (input.equals("Q")) break;
 
-                clip.setFramePosition(0);
+                clip.setMicrosecondPosition(0);
                 clip.start();
             }
         }
